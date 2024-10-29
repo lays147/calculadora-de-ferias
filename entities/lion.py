@@ -5,26 +5,26 @@ LEAO = [
     {
         "percent": 0,
         "deduction": 0,
-        "range": Range(floor=0, upper=float(1903.98)),
+        "range": Range(floor=0, upper=float(2212.20)),
     },
     {
         "percent": float(0.075),
-        "deduction": float(142.80),
-        "range": Range(floor=float(1903.99), upper=float(2826.65)),
+        "deduction": float(158.40),
+        "range": Range(floor=float(2212.01), upper=float(2826.65)),
     },
     {
         "percent": float(0.15),
-        "deduction": float(354.80),
+        "deduction": float(370.40),
         "range": Range(floor=float(2826.66), upper=float(3751.05)),
     },
     {
         "percent": float(0.225),
-        "deduction": float(636.13),
+        "deduction": float(651.73),
         "range": Range(floor=float(3751.06), upper=float(4664.68)),
     },
     {
         "percent": float(0.275),
-        "deduction": float(869.36),
+        "deduction": float(884.96),
         "range": Range(floor=float(4664.69), upper=float(BIG_NUMBER)),
     },
 ]

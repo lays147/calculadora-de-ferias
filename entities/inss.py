@@ -5,27 +5,27 @@ INSS = [
     {
         "percent": float(0.0750),
         "deduction": float(0.00),
-        "range": Range(floor=0, upper=float(1212.00)),
+        "range": Range(floor=0, upper=float(1412.00)),
     },
     {
         "percent": float(0.09),
-        "deduction": float(18.18),
-        "range": Range(floor=float(1212.01), upper=float(2427.35)),
+        "deduction": float(21.18),
+        "range": Range(floor=float(1412.01), upper=float(2666.68)),
     },
     {
         "percent": float(0.12),
-        "deduction": float(91.00),
-        "range": Range(floor=float(2427.36), upper=float(3641.03)),
+        "deduction": float(101.18),
+        "range": Range(floor=float(2666.69), upper=float(4000.03)),
     },
     {
         "percent": float(0.14),
-        "deduction": float(163.82),
-        "range": Range(floor=float(3641.04), upper=float(7807.22)),
+        "deduction": float(181.18),
+        "range": Range(floor=float(4000.04), upper=float(7786.02)),
     },
     {
         "percent": float(0),
-        "deduction": float(828.38),
-        "range": Range(floor=float(7807.23), upper=BIG_NUMBER),
+        "deduction": float(908.85),
+        "range": Range(floor=float(7786.03), upper=BIG_NUMBER),
     },
 ]
 
